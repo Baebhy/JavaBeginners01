@@ -7,6 +7,8 @@ public class MiniCalculatorApp {
 		int SecondNumber=80;
 		int sum=FirstNumber+SecondNumber;
 		System.out.println("The sum of the two numbers is "+sum);
+		int divide=FirstNumber/SecondNumber;
+		System.out.println("The division of the two numbers is "+divide);
 
 	}
 
