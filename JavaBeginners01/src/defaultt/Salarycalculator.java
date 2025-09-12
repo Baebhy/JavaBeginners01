@@ -10,9 +10,15 @@ public class Salarycalculator {
 		double TaxFee = 5.43;
 		double TaxImpact = 5.43/100;
 		double TaxedSalary = DefaultSalary - (DefaultSalary * TaxImpact);
-		System.out.println("Default Salary is " + DefaultSalary);
-		System.out.println("Tax on salary is " + TaxFee);
-		System.out.println("Salary after tax is " + TaxedSalary);
+		double FSalarywithbonuses = TaxedSalary + EmployeeBonus + TransportationAllowance + FeedingAllowance;
+		System.out.println("Default Salary = " + DefaultSalary);
+		System.out.println("Tax on salary = " + TaxFee);
+		System.out.println("Salary after tax = " + TaxedSalary);
+		System.out.println("Bonuses for the month");
+		System.out.println("Employee Bonus = "+ EmployeeBonus);
+		System.out.println("Transportation Allowance = " + TransportationAllowance);
+		System.out.println("Feeding Allowance = " + FeedingAllowance);
+		System.out.println("Total salary plus bonuses and allowance = " + FSalarywithbonuses);
 		
 		
 		
