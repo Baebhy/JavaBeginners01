@@ -9,6 +9,8 @@ public class MiniCalculatorApp {
 		System.out.println("The sum of the two numbers is "+sum);
 		int divide=FirstNumber/SecondNumber;
 		System.out.println("The division of the two numbers is "+divide);
+		int subtract=FirstNumber-SecondNumber;
+		System.out.println("The difference of the two numbers is "+subtract);
 
 	}
 
