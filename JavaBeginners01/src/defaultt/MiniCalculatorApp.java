@@ -11,6 +11,8 @@ public class MiniCalculatorApp {
 		System.out.println("The division of the two numbers is "+divide);
 		int subtract=FirstNumber-SecondNumber;
 		System.out.println("The difference of the two numbers is "+subtract);
+		int multiply=FirstNumber*SecondNumber;
+		System.out.println("The multiplication of the two numbers is "+multiply);
 
 	}
 
