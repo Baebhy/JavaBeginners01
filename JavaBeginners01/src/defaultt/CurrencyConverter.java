@@ -9,7 +9,7 @@ public class CurrencyConverter {
 		float dollaramount = 457.62f;
 		float poundamount = 693.28f;
 		float euroamount = 888.33f;
-		float nairaamount = 3860547.9876f;
+		float nairaamount = 3880547.9876f;
 		float dollartonaira = dollaramount * dollarrate;
 		System.out.println(dollaramount +" dollars to naira is " + dollartonaira);
 		float poundtonaira = poundamount * poundrate;
