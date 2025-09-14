@@ -14,7 +14,12 @@ public class BankInteractionwUser {
 		System.out.println("Please enter destination 10-digit account number");
 		Aza=KeyBoard.nextInt();
 		System.out.println(name+", you entered " + Aza);
+		float amount;
+		System.out.println("Please enter amount to be transferred");
+		amount=KeyBoard.nextFloat();
+		System.out.println(name+ ", you are about to transfer " + amount + " Do you wish to continue?");
 		
+
 	}
 
 }
