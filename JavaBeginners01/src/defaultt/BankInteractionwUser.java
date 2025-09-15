@@ -1,3 +1,5 @@
+/*Bank ATM Personalized Welcome sequence*/
+
 package defaultt;
 
 import java.util.Scanner;

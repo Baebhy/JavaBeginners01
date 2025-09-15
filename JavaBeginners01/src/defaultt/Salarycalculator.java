@@ -1,3 +1,5 @@
+/*Salary Calculator with bonuse and allowance*/
+
 package defaultt;
 
 public class Salarycalculator {
