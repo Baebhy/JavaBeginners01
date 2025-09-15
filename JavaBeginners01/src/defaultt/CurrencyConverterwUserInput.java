@@ -1,3 +1,4 @@
+/*Currency Converter with user input of amount to be converted with automatic rate application, and with user input on rate*/
 package defaultt;
 
 import java.util.Scanner;
