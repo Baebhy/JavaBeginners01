@@ -22,6 +22,26 @@ public class BMICalculator {
 		float BMI;
 	    BMI = weight / (height * height);
 	    System.out.println(name + " your BMI is " + BMI );
+	    
+	    if (BMI < 30) {
+	    	System.out.println("Underweight");
+	    }
+	    
+	    else if (BMI >= 30 && BMI < 50) {
+	    	System.out.println("Normal");
+	    }
+	    
+	    else if (BMI >= 50 && BMI <= 80) {
+	    	System.out.println("Overweight");
+	    }
+	    
+	    else {
+	    	System.out.println("Obese");
+	    }
+	    
+	    
+	   
+	    
 		
 		
 		
