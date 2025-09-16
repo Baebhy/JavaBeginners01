@@ -15,12 +15,15 @@ public class AgeAnalyzer {
 		System.out.println(name + " Please enter your year of birth");
 		yearofbirth = keyboard.nextInt();
 		int currentyear;
-		System.out.println(name + "Please enter the current year");
+		System.out.println(name + " Please enter the current year");
 		currentyear = keyboard.nextInt();
-		int age, year100;
+		int destyear;
+		System.out.println("Please enter the age you want to know its year");
+		destyear = keyboard.nextInt();
+		int age, yearfuture;
 		age = currentyear - yearofbirth;
-		year100 = yearofbirth + 100;
-		System.out.println(name + ", you are currently " + age + "years old and you will be 100years old in the year " + year100);
+		yearfuture = yearofbirth + destyear;
+		System.out.println(name + ", you are currently " + age + "years old and you will be " + destyear + "years old in the year " + yearfuture);
 
 	}
 
